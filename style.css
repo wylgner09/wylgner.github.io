@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0f0f0f;
+  color: #f1f1f1;
+}
+
+header {
+  background: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #00ffff;
+}
+
+section {
+  padding: 30px;
+}
+
+.sobre {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.perfil {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.card {
+  background: #1e1e1e;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 5px solid #00ffff;
+}
+
+.card a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contato ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contato li {
+  margin-bottom: 10px;
+}
+
+.contato a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+.stats img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  background: #1f1f1f;
+  padding: 15px;
+  font-style: italic;
+  color: #ccc;
+}
